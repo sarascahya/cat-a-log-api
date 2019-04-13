@@ -1,5 +1,7 @@
 # cat-a-log API
 
+### API used by https://github.com/budiharta21/cat-a-log
+
 ## Instalation Step
 1. Clone this repository
 2. Run `bundle install`
