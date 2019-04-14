@@ -1,7 +1,6 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+unless Author.exists?
+  Author.create(
+    username: "J.K. Rowling",
+    biography: "Joanne Kathleen Rowling atau lebih dikenal sebagai J.K. Rowling (lahir di Yate, Gloucestershire Utara, Inggris, 31 Juli 1965; umur 53 tahun). Sebagai seorang ibu tunggal yang tinggal di Edinburgh, Skotlandia, Rowling menjadi sorotan kesusasteraan internasional pada tahun 1999 saat tiga seri pertama novel remaja Harry Potter mengambil alih tiga tempat teratas dalam daftar New York Times best-seller setelah memperoleh kemenangan yang sama di Britania Raya. Kekayaan Rowling semakin bertambah saat seri ke-4, Harry Potter dan Piala Api diterbitkan pada bulan Juli tahun 2000. Seri ini menjadi buku paling laris penjualannya dalam sejarah."
+  )
+end
