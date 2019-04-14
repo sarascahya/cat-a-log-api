@@ -35,3 +35,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# serializer
+gem 'active_model_serializers', '~> 0.10.7'
+
+# pagination
+gem 'kaminari', '~> 1.1.1'
+
+# scope for filter
+gem 'has_scope', '~> 0.7.1'
+
+# image uploader
+gem 'carrierwave', '~> 1.0'
